@@ -1,0 +1,63 @@
+.nav-container {
+    width: 100%;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #4618AC;
+
+}
+
+.nav form i {
+    padding-right: .5rem;
+    color: #fff;
+}
+
+.nav-ul {
+    padding: 1rem;
+
+}
+
+.nav-li {
+    list-style: none;
+
+}
+
+.nav-li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+
+}
+
+.nav-li a:hover {
+    color: #FAD318;
+}
+
+.nav h1 {
+    color: #fff;
+    padding: .5rem;
+}
+
+.nav form input {
+    height: 40px;
+    width: 500px;
+}
+
+.nav-categories-button {
+    width: 120px;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 5px;
+    border: 1px solid #FAD318;
+
+}
+
+.nav-categories-button:hover {
+    background-color: #FAD318;
+    border: 1px solid #FAD318;
+
+}

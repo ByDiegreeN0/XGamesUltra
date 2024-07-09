@@ -1,0 +1,32 @@
+.recomendations-container {
+    width: 100%;
+    background-color: #4618AC;
+}
+
+.recomendations-container h2 {
+   padding: 2rem;
+   color: #fff;
+
+}
+
+.recomendations-button-container {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.recomendations-button {
+    width: 200px;
+    height: 40px;
+    background-color: #4618AC;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.recomendations-button:hover {
+    background-color: #311178;
+    color: #FAD318;
+    border: 1px solid #FAD318;
+}

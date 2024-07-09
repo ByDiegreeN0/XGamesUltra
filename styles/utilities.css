@@ -1,0 +1,15 @@
+.utilities-container{
+    display: flex;
+    justify-content: center;
+}
+
+.utilities-main-container p {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+}
+
+.utilities-card {
+    margin: 1rem;
+}
+

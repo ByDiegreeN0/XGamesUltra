@@ -18,6 +18,13 @@
 
     <link rel="stylesheet" href="styles/styles.css">
 
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/categories.css">
+    <link rel="stylesheet" href="styles/recomendations.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
     <script src="scripts/scrollReveal.js"></script>
 
 
@@ -30,33 +37,46 @@
         <nav class="nav">
             <h1>XgamesUltra</h1>
 
-            
+
             <form action="" method="post">
-                <input type="search" name="" id="" placeholder="Busca juegos aqui">
+                <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" id=""
+                    placeholder="Busca juegos aqui">
             </form>
 
             <ul class="nav-ul">
-                <li class="nav-li"><a href="">Noticias</a></li>
+                <li class="nav-li"><a class="nav-a" href="">Noticias</a></li>
             </ul>
 
-           <!-- <button class="nav-categories-button">Plataformas</button> --> <!-- PARA UN FUTURO -->
+            <!-- <button class="nav-categories-button">Plataformas</button> --> <!-- PARA UN FUTURO -->
             <button class="nav-categories-button">Categorias</button>
         </nav>
     </header>
 
-    <section class="main-img">
-        <img src="img/body/main.png" alt="">
-    </section>
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="img/body/caca.jpg" alt="Image 1">
+            <img src="img/body/wallpaperflare.com_wallpaper (1).jpg" alt="Image 2">
+            <img src="img/body/caca.jpg" alt="Image 3">
+        </div>
+        <button  class="carousel-button" id="prevBtn" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
+        <button  class="carousel-button" id="nextBtn" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
 
     <div class="main-sec">
         <section class="main-info">
             <div class="main-info-img">
                 <img src="img/games/Far Cry Instincts Frontal Por Patacho99 AMP - xbox.jpg" alt="">
             </div>
-    
+
             <div class="main-info-container">
                 <h3>XgamesUltra</h3>
-                <p>¡Bienvenido a nuestra plataforma de descarga para juegos de Xbox Clásica! Aquí encontrarás una amplia selección de títulos icónicos y populares para revivir la nostalgia de la era dorada de los videojuegos. Desde aventuras épicas hasta emocionantes juegos de acción, nuestra colección está cuidadosamente seleccionada para ofrecerte la mejor experiencia de juego retro. Explora, descubre y revive los momentos inolvidables con nuestra biblioteca de juegos para Xbox Clásica. ¡Prepárate para jugar como nunca antes!</p>
+                <p>¡Bienvenido a nuestra plataforma de descarga para juegos de Xbox Clásica! Aquí encontrarás una amplia
+                    selección de títulos icónicos y populares para revivir la nostalgia de la era dorada de los
+                    videojuegos. Desde aventuras épicas hasta emocionantes juegos de acción, nuestra colección está
+                    cuidadosamente seleccionada para ofrecerte la mejor experiencia de juego retro. Explora, descubre y
+                    revive los momentos inolvidables con nuestra biblioteca de juegos para Xbox Clásica. ¡Prepárate para
+                    jugar como nunca antes!</p>
                 <div class="main-info-container-button">
                     <a href=""><button class="recomendations-button ">Ver Catalogo</button></a>
                 </div>
@@ -70,65 +90,65 @@
 
         <div class="categories-card-container">
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-hat-cowboy"></i>
-                    <p>Aventura</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-hat-cowboy"></i>
+                        <p>Aventura</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-car"></i>
-                    <p>Carreras</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-car"></i>
+                        <p>Carreras</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-futbol"></i>
-                    <p>Deportes</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-futbol"></i>
+                        <p>Deportes</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-gun"></i>
-                    <p>Disparos</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-gun"></i>
+                        <p>Disparos</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-hand-fist"></i>
-                    <p>Peleas</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-hand-fist"></i>
+                        <p>Peleas</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-skull"></i>
-                    <p>Terror</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-skull"></i>
+                        <p>Terror</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
 
         </div>
@@ -202,35 +222,35 @@
 
         <div class="categories-card-container utilities-container">
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content utilities-card">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-hat-cowboy"></i>
-                    <p>Aventura</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content utilities-card">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-hat-cowboy"></i>
+                        <p>Aventura</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content utilities-card">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-car"></i>
-                    <p>Carreras</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content utilities-card">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-car"></i>
+                        <p>Carreras</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
-           <a class="categories-card-link" href="">
-            <div class="categories-card-content utilities-card">
-                <div class="categories-card">
-                    <p>15020</p>
-                    <i class="fa-solid fa-car"></i>
-                    <p>Carreras</p>
+            <a class="categories-card-link" href="">
+                <div class="categories-card-content utilities-card">
+                    <div class="categories-card">
+                        <p>15020</p>
+                        <i class="fa-solid fa-car"></i>
+                        <p>Carreras</p>
+                    </div>
                 </div>
-            </div>
-           </a>
+            </a>
 
         </div>
 

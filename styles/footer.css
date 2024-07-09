@@ -1,0 +1,36 @@
+footer {
+    background-color: #150733;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.footer-tittle {
+    font-size: 20px;
+    padding: .4rem;
+}
+
+.footer-ul {
+    padding: .4rem;
+}
+
+.footer-li {
+    list-style: none;
+    padding: .2rem;
+
+}
+
+
+.footer-li  a{
+    color: #fff;
+}
+
+.footer-list-social i {
+    font-size: 30px;
+    padding: .3rem;
+    color: #fff;
+}
