@@ -1,20 +1,36 @@
 /* Extra small devices (teléfonos pequeños, menos de 576px) */
-@media (max-width: 575.98px) { 
 
-  }
-  
-  /* Small devices (teléfonos, 576px y más) */
-  @media (min-width: 576px) and (max-width: 767.98px) { 
-    
-  }
   
   /* Medium devices (tabletas, 768px y más) */
-  @media (min-width: 768px) and (max-width: 991.98px) { 
+  @media (max-width: 768px){ 
 
+    .main-info {
+        display: inline;
+        padding: 0;
+        margin: 0;
+
+    }
+    .main-info-img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-info-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #4618AC;
+    }
+
+   
   }
   
   /* Large devices (escritorios, 992px y más) */
-  @media (min-width: 992px) and (max-width: 1199.98px) { 
+  @media (max-width: 850px) { 
+    .nav {
+        display: none;
+    }
 
   }
 
