@@ -54,64 +54,6 @@
 }
 
 
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 3rem;
-    flex-wrap: wrap;
-}
 
-.card-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card {
-    width: 224px;
-    background-color: #1F0A4D;
-    box-shadow: 5px 5px 20px;
-    transition: all .4s ease;
-    margin: 1rem;
-}
-
-.card:hover {
-    transform: translateY(-3%);
-}
-
-.card img {
-    width: 100%;
-    height: 300px;
-}
-
-.card h3 {
-    text-align: center;
-    font-size: 20px;
-    padding: .5rem;
-    color: #fff;
-}
-
-.card p {
-    text-align: center;
-    font-size: 15px;
-    padding: .8rem;
-    color: #fff;
-
-}
-
-.card-button {
-    text-align: center;
-    padding: .5rem;
-
-}
-
-.card-button button {
-    width: 150px;
-    height: 30px;
-}
-
-.card-button button:hover {
-    cursor: pointer;
-}
 
 

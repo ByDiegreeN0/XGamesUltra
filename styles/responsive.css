@@ -36,7 +36,11 @@
 
   
   /* Extra large devices (escritorios grandes, 1200px y más) */
-  @media (min-width: 1200px) { 
+  @media (min-width: 926px) { 
+
+    .nav form {
+        /* reemplazar la nav, por una responsive, y de ahi en adelante, solo usar la nueva nav */
+    }
 
   }
   
