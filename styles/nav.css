@@ -1,25 +1,66 @@
 .nav-container {
     width: 100%;
-
+    display: flex;
+    justify-content: space-between;
+    background-color: #4618AC;
+    align-items: center;
 }
 
 .nav {
-    display: flex;
-    justify-content: space-between;
     padding: 1rem;
-    background-color: #4618AC;
+    display: flex;
+}
+
+.nav h1 {
+    color: #fff;
+    padding: .5rem;
+}
+
+.nav-container form {
+    padding: 1rem;
 
 }
 
-.nav form i {
+
+.nav-container form input {
+    border: none;
+    padding: 1rem;
+}
+
+.nav-container form input:focus {
+    border: none;
+}
+
+.nav-container form i {
     padding-right: .5rem;
     color: #fff;
 }
 
+.nav-container form input {
+    height: 30px;
+    width: 400px;
+    color: #4618AC;
+
+}
+
+.nav-container form input:focus {
+    outline: none;
+    color: #4618AC;
+
+}
+
+
+.nav-button {
+    padding: 1rem;
+   
+}
+
 .nav-ul {
+    display: flex;
     padding: 1rem;
 
 }
+
 
 .nav-li {
     list-style: none;
@@ -30,6 +71,7 @@
     color: #fff;
     text-decoration: none;
     transition: all .3s ease;
+    padding-left: 1rem;
 
 }
 
@@ -37,27 +79,20 @@
     color: #FAD318;
 }
 
-.nav h1 {
-    color: #fff;
-    padding: .5rem;
+.submenu {
+    display: none;
+    position: absolute;
+    right: 10;
+    background-color: #4618AC;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    min-width: 160px;
+    z-index: 2;
 }
 
-.nav form input {
-    height: 40px;
-    width: 500px;
+.submenu li {
+    display: block;
+    padding: 10px;
 }
 
-.nav-categories-button {
-    width: 120px;
-    cursor: pointer;
-    transition: all .3s ease;
-    border-radius: 5px;
-    border: 1px solid #FAD318;
-
-}
-
-.nav-categories-button:hover {
-    background-color: #FAD318;
-    border: 1px solid #FAD318;
-
-}

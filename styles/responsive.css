@@ -28,9 +28,7 @@
   
   /* Large devices (escritorios, 992px y más) */
   @media (max-width: 850px) { 
-    .nav {
-        display: none;
-    }
+   
 
   }
 
