@@ -2,30 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </body>
-
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/carousel.css">
-    <link rel="stylesheet" href="styles/categories.css">
-    <link rel="stylesheet" href="styles/recomendations.css">
-    <link rel="stylesheet" href="styles/utilities.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/responsive.css">
-
-    <script src="scripts/scrollReveal.js"></script>
+    <?php 
+        require('imports/FullHeadImport.php') // para importar el head
+    ?>
 
     <link rel="icon" href="img/body/Icon/XGamesUltra.ico">
 
@@ -34,55 +14,9 @@
 
 <body>
 
-    <header class="nav-container">
-        <nav class="nav">
-            <h1>XgamesUltra</h1>
-        </nav>
-
-        <form action="" method="post">
-            <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" id=""
-                placeholder="Busca juegos aqui">
-        </form>
-
-        <div class="nav-button">
-            <ul class="nav-ul">
-                <li class="nav-li submenu-button">
-                    <a href="" class="nav-btn">Categorias <i class="fa-solid fa-caret-down"></i></a>
-                    <ul class="submenu">
-                        <li><a href="">Aventura</a></li>
-                        <li><a href="">Carreras</a></li>
-                        <li><a href="">Deportes</a></li>
-                        <li><a href="">Disparos</a></li>
-                        <li><a href="">Peleas</a></li>
-                        <li><a href="">Terror</a></li>
-                    </ul>
-                </li>
-                <li class="nav-li nav-btn"><a class="nav-a" href="">Noticias</a></li>
-                <li class="nav-li nav-btn"><a class="nav-a" href="">Soporte</a></li>
-            </ul>
-        </div>
-
-
-        <div class="nav-responsive">
-            <div class="nav-responsive-buttons">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
-            <ul class="nav-responsive-list">
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Soporte</a></li>
-            </ul>
-        </div>
-
-    </header>
-
-    <div class="nav-responsive-searchbar">
-        <form action="" method="post">
-            <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" id=""
-                placeholder="Busca juegos aqui">
-        </form>
-    </div>
+   <?php
+    require('imports/nav.php') // para importar el nav
+   ?>
 
 
     <div class="carousel">
@@ -289,42 +223,15 @@
 
     </section>
 
-    <footer>
-        <div class="footer-container">
-            <div class="footer-list">
-                <h4 class="footer-tittle">Mas Informacion</h4>
-                <ul class="footer-ul">
-                    <li class="footer-li"><a href="">Sobre Nosotros</a></li>
-                    <li class="footer-li"><a href="">Contacto</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-list">
-                <h4 class="footer-tittle">Soporte</h4>
-                <ul class="footer-ul">
-                    <li class="footer-li"><a href="">Preguntas Frecuentes</a></li>
-                    <li class="footer-li"><a href="">Crea un Ticket</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-list">
-                <h5 class="footer-tittle">siguenos</h5>
-                <div class="footer-list-social">
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
-                </div>
-            </div>
-
-        </div>
-    </footer>
+    <?php 
+        require('imports/Footer.php') // para importar el footer
+    ?>
 
 
+    <?php
+        require('imports/FullJavascrptImport.php') // para importar los scripts
+    ?>
 
-    <script src="scripts/carousel.js"></script>
-    <script src="scripts/submenu.js"></script>
-    <script src="scripts/anim.js"></script>
-    <script src="scripts/responsiveNav.js"></script>
 
 
 </html>
