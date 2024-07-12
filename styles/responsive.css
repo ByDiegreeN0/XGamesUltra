@@ -1,44 +1,62 @@
-/* Extra small devices (teléfonos pequeños, menos de 576px) */
+/* Medium devices (tabletas, 768px y más) */
+@media (max-width: 768px) {
 
-  
-  /* Medium devices (tabletas, 768px y más) */
-  @media (max-width: 768px){ 
+  .main-info {
+    display: inline;
+    padding: 0;
+    margin: 0;
 
-    .main-info {
-        display: inline;
-        padding: 0;
-        margin: 0;
+  }
 
-    }
-    .main-info-img {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+  .main-info-img {
+    width: 100%;
+    padding: 1rem;
+    margin: 0;
+  }
 
-    .main-info-container {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        background-color: #4618AC;
-    }
+  .main-info-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #4618AC;
+  }
 
+
+}
+
+
+
+@media (max-width: 983px) {
+
+
+  .nav-container form {
+    display: none;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-responsive-buttons i {
+    display: block;
+  }
+
+  .nav-responsive-searchbar {
+    display: flex;
+  }
+
+
+
+
+  .nav-responsive-list {
+     /* display: flex;*/
+    flex-direction: column;
+   
    
   }
-  
-  /* Large devices (escritorios, 992px y más) */
-  @media (max-width: 850px) { 
-   
 
-  }
 
-  
-  /* Extra large devices (escritorios grandes, 1200px y más) */
-  @media (min-width: 926px) { 
 
-    .nav form {
-        /* reemplazar la nav, por una responsive, y de ahi en adelante, solo usar la nueva nav */
-    }
 
-  }
-  
+
+}

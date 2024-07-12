@@ -4,6 +4,9 @@
     justify-content: space-between;
     background-color: #4618AC;
     align-items: center;
+    position: fixed;
+    box-shadow: 1px 1px 20px;
+    z-index: 3;
 }
 
 .nav {
@@ -18,6 +21,7 @@
 
 .nav-container form {
     padding: 1rem;
+
 
 }
 
@@ -55,6 +59,7 @@
    
 }
 
+
 .nav-ul {
     display: flex;
     padding: 1rem;
@@ -82,7 +87,6 @@
 .submenu {
     display: none;
     position: absolute;
-    right: 10;
     background-color: #4618AC;
     list-style-type: none;
     padding: 0;
@@ -94,5 +98,110 @@
 .submenu li {
     display: block;
     padding: 10px;
+}
+
+
+/* RESPONSIVE */
+
+.nav-responsive {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-responsive-buttons i {
+    display: flex;
+    color: #fff;
+    display: none;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+
+.nav-responsive-buttons i:hover {
+    color: #FAD318;
+
+}
+
+
+.nav-responsive-list {
+    background-color: #311178;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; 
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    box-shadow: 10px 10px 20px;
+    padding: 2rem;
+
+}
+
+.nav-responsive-list li {
+    display: block;
+    padding: 1rem;
+}
+
+.nav-responsive-list li a {
+    font-size: 20px;
+    color: #fff;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+
+.nav-responsive-list li a:hover {
+    color: #FAD318;
+}
+
+.nav-responsive-list li a:focus {
+    color: #FAD318;
+}
+
+
+.nav-responsive-searchbar {
+    background-color: #311178;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: none;
+    padding-top: 5rem;
+}
+
+
+.nav-responsive-searchbar form{
+    padding: 1rem;
+}
+.nav-responsive-searchbar form input {
+    border: none;
+    padding: 1rem;
+}
+
+.nav-responsive-searchbar form input:focus {
+    border: none;
+}
+
+.nav-responsive-searchbar form i {
+    padding-right: .5rem;
+    color: #fff;
+}
+
+.nav-responsive-searchbar form input {
+    height: 30px;
+    width: 400px;
+    color: #4618AC;
+
+}
+
+.nav-responsive-searchbar form input:focus {
+    outline: none;
+    color: #4618AC;
+
 }
 

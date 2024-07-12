@@ -27,6 +27,7 @@
 
     <script src="scripts/scrollReveal.js"></script>
 
+    <link rel="icon" href="img/body/Icon/XGamesUltra.ico">
 
     <title>XgamesUltra | Consigue juegos para xbox clasica</title>
 </head>
@@ -36,11 +37,6 @@
     <header class="nav-container">
         <nav class="nav">
             <h1>XgamesUltra</h1>
-
-
-           
-
-          
         </nav>
 
         <form action="" method="post">
@@ -50,8 +46,8 @@
 
         <div class="nav-button">
             <ul class="nav-ul">
-                <li class="nav-li">
-                    <a href="">Categorias <i class="fa-solid fa-caret-down"></i></a>
+                <li class="nav-li submenu-button">
+                    <a href="" class="nav-btn">Categorias <i class="fa-solid fa-caret-down"></i></a>
                     <ul class="submenu">
                         <li><a href="">Aventura</a></li>
                         <li><a href="">Carreras</a></li>
@@ -61,14 +57,33 @@
                         <li><a href="">Terror</a></li>
                     </ul>
                 </li>
-                <li class="nav-li"><a class="nav-a" href="">Noticias</a></li>
-                <li class="nav-li"><a class="nav-a" href="">Soporte</a></li>
+                <li class="nav-li nav-btn"><a class="nav-a" href="">Noticias</a></li>
+                <li class="nav-li nav-btn"><a class="nav-a" href="">Soporte</a></li>
             </ul>
-            
-
-            <!-- <button class="nav-categories-button">Plataformas</button> --> <!-- PARA UN FUTURO -->
         </div>
+
+
+        <div class="nav-responsive">
+            <div class="nav-responsive-buttons">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="nav-responsive-list">
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Soporte</a></li>
+            </ul>
+        </div>
+
     </header>
+
+    <div class="nav-responsive-searchbar">
+        <form action="" method="post">
+            <i class="fa-solid fa-magnifying-glass"></i> <input type="search" name="" id=""
+                placeholder="Busca juegos aqui">
+        </form>
+    </div>
+
 
     <div class="carousel">
         <div class="carousel-images">
@@ -76,8 +91,10 @@
             <img src="img/body/wallpaperflare.com_wallpaper (1).jpg" alt="Image 2">
             <img src="img/body/caca.jpg" alt="Image 3">
         </div>
-        <button  class="carousel-button" id="prevBtn" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
-        <button  class="carousel-button" id="nextBtn" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+        <button class="carousel-button" id="prevBtn" onclick="prevSlide()"><i
+                class="fa-solid fa-arrow-left"></i></button>
+        <button class="carousel-button" id="nextBtn" onclick="nextSlide()"><i
+                class="fa-solid fa-arrow-right"></i></button>
     </div>
 
 
@@ -304,6 +321,10 @@
 
 
 
-    <script src="scripts/main.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/submenu.js"></script>
+    <script src="scripts/anim.js"></script>
+    <script src="scripts/responsiveNav.js"></script>
+
 
 </html>
